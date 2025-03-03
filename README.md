@@ -2,10 +2,9 @@
 
 ### Table of Contents
 
-- [Project Description](#description)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [Author Info](#author-info)
+- [Project Description](#project-description)
+- [How To Use](#how-to-get-started)
+- [Author Info](#author)
 
 ## Project Description
 ### $${\color{lightblue}Problem \space\space Statement}$$
