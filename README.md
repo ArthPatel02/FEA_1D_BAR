@@ -65,4 +65,4 @@ For new contributors follow these steps given below :
 ## Authors  
 1. Arth Patel - [Twitter](https://www.linkedin.com/in/arthpatel02/) | [Github](https://github.com/ArthPatel02)
 2. Sumit Singh - [Twitter](https://www.linkedin.com/in/arthpatel02/) | [Github](https://github.com/ArthPatel02)
-3. Naveen Kumar - [Twitter]((https://www.linkedin.com/in/naveen-kumar-630636287/)) | [Github](https://github.com/Naveenkumar026)
+3. Naveen Kumar - [Twitter](https://www.linkedin.com/in/naveen-kumar-630636287/) | [Github](https://github.com/Naveenkumar026)
