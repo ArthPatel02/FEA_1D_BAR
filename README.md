@@ -1,5 +1,5 @@
-[# FEA - 1D Bar Simulator
-](https://readme-typing-svg.demolab.com/demo/?font=Montserrat&weight=800&size=30&duration=1&pause=100000000000&center=true&vCenter=true&width=451&lines=FEA+-+1D+Bar+Simulator)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=30&duration=1&pause=100000000000&center=true&vCenter=true&width=451&lines=FEA+-+1D+Bar+Simulator)](https://git.io/typing-svg) 
+
 ## Project Description 💡
 ### $${\color{lightblue}Problem \space\space Statement}$$
 - Develop a code/software to solve a general 1-dimensional axially loaded bar. The schematic of a bar with concentrated and distributed loads is shown in figure for your reference.
