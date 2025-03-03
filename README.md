@@ -63,4 +63,6 @@ For new contributors follow these steps given below :
 - `git pull` : Fetch and merge changes on the remote server to your working directory
 
 ## Authors  
-1. [@ArthPatel02](https://www.linkedin.com/in/arthpatel02/)
+1. Arth Patel - [Twitter](https://www.linkedin.com/in/arthpatel02/) | [Github](https://github.com/ArthPatel02)
+2. Sumit Singh - [Twitter](https://www.linkedin.com/in/arthpatel02/) | [Github](https://github.com/ArthPatel02)
+3. Naveen Kumar - [Twitter]((https://www.linkedin.com/in/naveen-kumar-630636287/)) | [Github](https://github.com/Naveenkumar026)
