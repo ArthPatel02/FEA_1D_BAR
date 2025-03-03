@@ -1,11 +1,5 @@
 # FEA - 1D Bar Simulator
 
-### Table of Contents
-
-- [Project Description](#project-description)
-- [How To Use](#how-to-get-started-🏁)
-- [Author Info](#authors)
-
 ## Project Description
 ### $${\color{lightblue}Problem \space\space Statement}$$
 - Develop a code/software to solve a general 1-dimensional axially loaded bar. The schematic of a bar with concentrated and distributed loads is shown in figure for your reference.
