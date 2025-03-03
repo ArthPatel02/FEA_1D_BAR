@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=30&duration=1&pause=100000000000&center=true&vCenter=true&width=451&lines=FEA+-+1D+Bar+Simulator)](https://git.io/typing-svg) 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Montserrat&weight=800&size=30&duration=1&pause=100000000000&vCenter=true&width=451&lines=FEA+-+1D+Bar+Simulator)]
 
 ## Project Description 💡
 ### $${\color{lightblue}Problem \space\space Statement}$$
