@@ -3,8 +3,8 @@
 ### Table of Contents
 
 - [Project Description](#project-description)
-- [How To Use](#how-to-get-started)
-- [Author Info](#author)
+- [How To Use](#how-to-get-started-🏁)
+- [Author Info](#authors)
 
 ## Project Description
 ### $${\color{lightblue}Problem \space\space Statement}$$
