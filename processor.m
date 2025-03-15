@@ -9,14 +9,16 @@ n = input("Enter the number of elements = ");
 % function for element stiffness matrix
 function Ke = elementStiffnessMatrix(E,A,L)
 ke =  ((A*E)/L)*[[1 -1];[-1 1]];
+end
 
 % function for Global stiffness matrix
 function K = globalStiffnessMatrix(n)
-K = zeros(n,n);
-ke = elementStiffnessMatrix(E,A,L);
-for i= 1:n
-K(i:i+1,i:i+1) = K(i:i+1,i:i+1) + ke;
-end 
+     K = zeros(n,n);
+     ke = elementStiffnessMatrix(E,A,L);
+   for i= 1:n
+   K(i:i+1,i:i+1) = K(i:i+1,i:i+1) + ke;
+   end 
+end
 
 % function for Shape Function and its derivatives 
 function [N1,N2,D1,D2] = shapeFunction(X)
@@ -33,12 +35,12 @@ function [N1,N2,D1,D2] = shapeFunction(X)
     D1(i) = diff(N1(i),x);
     D2(i) = diff(N2(i),x);
     end
+end
      
     % function for internal and external force
-    function [bi,b1,b2,F] = forceFunction(q,R,n)
-        [N1,N2,D1,D2] = shapeFunction([0 2 4 6]);
+    function [bi,F] = forceFunction(q,R,n)
+        [N1,N2] = shapeFunction([0 2 4 6]);
         X = [0 2 4 6];
-        L = 6;
         numberofNodes = n;
                 syms U1 U2 x
                 U = N1*U1 + N2*U2;
