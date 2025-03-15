@@ -17,3 +17,4 @@ ke = elementStiffnessMatrix(E,A,L);
 for i= 1:n
 K(i:i+1,i:i+1) = k(i:i+1,i:i+1) + ke;
 end 
+kim 
