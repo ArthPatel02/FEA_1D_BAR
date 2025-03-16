@@ -54,9 +54,11 @@ end
                     g1(x) = N1(j)*q;
                       f2(x) = N2(j)*R;
                     g2(x) = N2(j)*q;
+                  
         
                     b1(j) = int(g1,x,X(j),X(j+1)) + f1(X(4));
                     b2(j) = int(g2,x,X(j),X(j+1)) + f2(X(4));
+                  
                     
               end
               b1_padded = [b1;0];
