@@ -40,9 +40,9 @@ end
     % function for internal and external force
     function [bi,F] = forceFunction(q,R,n)
         [N1,N2] = shapeFunction([0 2 4 6]);
-        X = [0 2 4 6];
+         X = [0 2 4 6];
         numberofNodes = n;
-                syms U1 U2 x
+        syms U1 U2 x
                 U = N1*U1 + N2*U2;
                 b1 = sym(zeros(numberofNodes-1,1));
                 b2 = sym(zeros(numberofNodes-1,1));
@@ -67,11 +67,15 @@ end
               bi = b1_padded + b2_padded ;
               for i = 1:numberofNodes
 
-              f(i) = input("concentrated load at (%d):" , i);
-              F = f + bi;
+                  f(i) = input("concentrated load at (%d):" , i);
+                  F = f + bi;
+
+              end
               
         end
         
 function [U] = solutionfunction(F,K);
 
   U = K\F;
+  
+end
