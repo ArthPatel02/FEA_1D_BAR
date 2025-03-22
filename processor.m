@@ -1,10 +1,10 @@
 % Prompt for material details 
-E = input("Enter Eastic Modulus of bar in N/mm = ");
-A = input("Enter Area of bar in m^2 =");
-L = input("Enter Length of Bar in m = ");
+E = input("Enter Eastic Modulus of bar in N/mm: ");
+A = input("Enter Area of bar in m^2:");
+L = input("Enter Length of Bar in m :");
 
 % Prompt for element details
-n = input("Enter the number of elements = ");
+n = input("Enter the number of elements:");
 
 % function for element stiffness matrix
 function Ke = elementStiffnessMatrix(E,A,L)
@@ -46,7 +46,7 @@ end
                 U = N1*U1 + N2*U2;
                 b1 = sym(zeros(numberofNodes-1,1));
                 b2 = sym(zeros(numberofNodes-1,1));
-                F = sym(zeros(numberofNodes-1,1));
+                f = sym(zeros(numberofNodes-1,1));
         
         
               for j = 1:numberofNodes-1
@@ -65,6 +65,13 @@ end
               b2_padded = [0;b2];
               bi = zeros(numberofNodes,1);
               bi = b1_padded + b2_padded ;
+              for i = 1:numberofNodes
+
+              f(i) = input("concentrated load at (%d):" , i);
+              F = f + bi;
               
         end
         
+function [U] = solutionfunction(F,K);
+
+  U = K\F;
